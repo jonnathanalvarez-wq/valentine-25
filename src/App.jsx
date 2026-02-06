@@ -106,7 +106,7 @@ function App() {
     >
       {!valueSi ? (
         <div className="p-5">
-          <h1 className="font-bold text-5xl text-center text-white">
+          <h1 className="font-bold text-5xl text-center !text-white">
             ¿Quieres ser mi San Valentin ❤️?
           </h1>
           <img
@@ -159,7 +159,7 @@ function App() {
           </div>
         </div>
       ) : (
-        <div className="flex justify-center items-center flex-col space-y-10">
+        <div className="flex justify-center items-center flex-col space-y-10 !text-white">
           <h1 className="text-4xl font-bold">
             Siempre confiè en ti❤️!
           </h1>
